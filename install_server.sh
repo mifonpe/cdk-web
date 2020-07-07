@@ -1,3 +1,4 @@
+#!/bin/sh 
 yum update -y
 yum install -y httpd git
 usermod -a -G apache ec2-user
