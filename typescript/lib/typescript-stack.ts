@@ -47,7 +47,7 @@ export class TypescriptStack extends cdk.Stack {
       storage: ec2.AmazonLinuxStorage.GENERAL_PURPOSE,
     });
 
-
+   // tags?
     const instance =  new ec2.Instance(this, 'MyCDKInstance', {
       vpc,
       machineImage: linux,
